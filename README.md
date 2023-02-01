@@ -8,17 +8,17 @@
 It is now possible to use an url to an existing alto file instead of a locally existing filepaths.
 
 ### Basic usage
-  * extract UTF-8 text content from ALTO file  
+* extract UTF-8 text content from ALTO file  
 
-    `python3 alto-tools.py alto.xml -t`
+  `python3 alto_tools.py alto.xml -t`
 
-  * extract page OCR confidence score from ALTO file  
+* extract page OCR confidence score from ALTO file  
 
-    `python3 alto-tools.py alto.xml -c`
+  `python3 alto_tools.py alto.xml -c`
 
-  * extract bounding boxes of illustrations from ALTO file  
+* extract bounding boxes of illustrations from ALTO file  
 
-    `python3 alto-tools.py alto.xml -l`
+  `python3 alto_tools.py alto.xml -l`
 
 ### ReOCR
   This function uses the existing line layout parameters to make a new line recognition process with the
@@ -26,7 +26,7 @@ It is now possible to use an url to an existing alto file instead of a locally e
 
   * start the reocr process
 
-    `python3 alto-tools.py alto.xml -r`
+    `python3 alto_tools.py alto.xml -r`
 
 ####  Options to extend and tweak the reOCR process
   * add path/url to image-files, if the url points directly to file you need to add an @ in front of the url.
